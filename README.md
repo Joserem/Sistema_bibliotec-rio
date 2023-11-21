@@ -46,7 +46,7 @@ Este projeto é uma parte significativa do meu portfólio pessoal e também foi 
 O desafio proposto era resolver um problema prático: simplificar o processo de consulta e empréstimo de exemplares.
 Através deste projeto, consegui demonstrar minha habilidade em aplicar conceitos teóricos para resolver problemas do mundo real.
 
-## Some Observations about this App
+## Some observations about this App
 
 1- O app não salva informações (uma vez fechado o app todas a informações presentes nele desaparecer), poderia ser acrescentado um banco de dados ou uma função que salvasse.
 
