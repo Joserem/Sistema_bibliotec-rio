@@ -1,5 +1,5 @@
 # Sistema_bibliotecário
-Sistema bibliotecário feito em Python com a biblioteca tkinter
+Library system made in Python with the tkinter library
 
 ## Some app screenshots
 
@@ -18,39 +18,39 @@ Sistema bibliotecário feito em Python com a biblioteca tkinter
 
 ## About this Project 
 
-"Implementar um sistema de gerenciamento de biblioteca, a fim de facilitar as
-consultas/empréstimos dos exemplares disponíveis"
+"Implement a library management system to make it easier to
+consultations/loans of available copies"
 
 # Functionalities 
 
-As funcionalidades do sistema são: consulta/disponibilidade, empréstimo,
-devolução, status dos livros, inclusão/remoção por parte dos bibliotecários, etc.
+The system's functionalities are: consultation/availability, loan,
+return, book status, inclusion/removal by librarians, etc.
 
-Além disso o sistema possui características específicas para cada usuário,
-como:
+The system also has specific features for each user,
+such as:
 
-• Alunos podem permanecer com o livro por 5 dias, já os professores por 10;
+• Students can keep the book for 5 days, teachers for 10;
 
-• Alunos pagam multa se não devolverem o livro na data especificada, os professores
-não;
+• Students pay a fine if they don't return the book on the specified date, teachers
+no;
 
-• Alunos podem solicitar o empréstimo de até 3 exemplares, para professores a
-quantidade é de 6;
+• Students can borrow up to 3 copies, teachers can borrow up to 6 copies.
+is 6;
 
-• Bibliotecários podem adicionem novos livros ao catálogo da biblioteca. Cada livro
-tem características como título, autor, ISBN e uma indicação de sua disponibilidade.
+• Librarians can add new books to the library catalog. Each book
+has characteristics such as title, author, ISBN and an indication of its availability.
 
 # Why?
 
-Este projeto é uma parte significativa do meu portfólio pessoal e também foi desenvolvido como parte de um trabalho acadêmico. 
-O desafio proposto era resolver um problema prático: simplificar o processo de consulta e empréstimo de exemplares.
-Através deste projeto, consegui demonstrar minha habilidade em aplicar conceitos teóricos para resolver problemas do mundo real.
+This project is a significant part of my personal portfolio and was also developed as part of an academic assignment. 
+The challenge was to solve a practical problem: to simplify the process of consulting and borrowing copies.
+Through this project, I was able to demonstrate my ability to apply theoretical concepts to solve real-world problems.
 
 ## Some observations about this App
 
-1- O app não salva informações (uma vez fechado o app todas a informações presentes nele desaparecer), poderia ser acrescentado um banco de dados ou uma função que salvasse.
+1- The app doesn't save information (once the app is closed all the information in it disappears), a database or a saving function could be added.
 
-2 - Para que funcione corretamente o progama deve ser inicializado pela tela de login.
+2 - For it to work properly, the program must be started from the login screen.
 
 
 
