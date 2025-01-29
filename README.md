@@ -1,7 +1,36 @@
-# Sistema_bibliotecário
-Library system made in Python with the tkinter library
+# Library System 📚
+An application developed in Python with Tkinter to manage book loans, simplifying consultations, reservations and returns.
 
-## Some app screenshots
+## 📌 Functionality
+- 🔍 **Book search** by title, author or ISBN.
+- **Loans and returns** with specific rules for students and teachers.
+- ⚠️ **Automatic fines** for late returns (for students only).
+- **Registration and removal of books** by librarians.
+- **Availability control** for each copy.
+
+## 🛠 Technologies used
+- Python
+- **Tkinter** (graphical interface)
+- **Subprocess** (for window management)
+
+## 🎯 Objective
+This project was developed as part of an academic challenge and is also part of my portfolio. The focus is on making the library management process more practical and accessible.
+
+## 📥 Steps to Run
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Joserem/Sistema_bibliotec-rio.git
+   cd Sistema_bibliotec-rio
+
+2. Install dependencies:
+    ```sh
+    pip install -r requirements.txt
+
+3. Run the application:
+   ```sh
+   python main.py
+
+## 🔗 Some app screenshots
 
 ![image](https://github.com/Joserem/Sistema_bibliotec-rio/assets/139785021/7847e905-4326-406e-8dfb-a48a5a0d73e6)
 
@@ -16,37 +45,7 @@ Library system made in Python with the tkinter library
 ![image](https://github.com/Joserem/Sistema_bibliotec-rio/assets/139785021/124b553d-edee-454d-a491-00f12b1bfbb9)
 ![image](https://github.com/Joserem/Sistema_bibliotec-rio/assets/139785021/1aad599d-cc0a-4acb-abe2-06bfd2f1c5fc)
 
-## About this Project 
-
-"Implement a library management system to make it easier to
-consultations/loans of available copies"
-
-# Functionalities 
-
-The system's functionalities are: consultation/availability, loan,
-return, book status, inclusion/removal by librarians, etc.
-
-The system also has specific features for each user,
-such as:
-
-• Students can keep the book for 5 days, teachers for 10;
-
-• Students pay a fine if they don't return the book on the specified date, teachers
-no;
-
-• Students can borrow up to 3 copies, teachers can borrow up to 6 copies.
-is 6;
-
-• Librarians can add new books to the library catalog. Each book
-has characteristics such as title, author, ISBN and an indication of its availability.
-
-# Why?
-
-This project is a significant part of my personal portfolio and was also developed as part of an academic assignment. 
-The challenge was to solve a practical problem: to simplify the process of consulting and borrowing copies.
-Through this project, I was able to demonstrate my ability to apply theoretical concepts to solve real-world problems.
-
-## Some observations about this App
+## ⚠ Notes
 
 1- The app doesn't save information (once the app is closed all the information in it disappears), a database or a saving function could be added.
 
